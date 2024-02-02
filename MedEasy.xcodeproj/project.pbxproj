@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2E16D32B402BF700172BDC /* EditDefaultValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E16D22B402BF700172BDC /* EditDefaultValue.swift */; };
 		4CC555572B3C6A81000E16E6 /* MedEasyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC555562B3C6A81000E16E6 /* MedEasyApp.swift */; };
 		4CC555592B3C6A81000E16E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC555582B3C6A81000E16E6 /* ContentView.swift */; };
 		4CC5555B2B3C6A82000E16E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC5555A2B3C6A82000E16E6 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		4CC555692B3C6A82000E16E6 /* MedEasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC555682B3C6A82000E16E6 /* MedEasyTests.swift */; };
 		4CC555732B3C6A82000E16E6 /* MedEasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC555722B3C6A82000E16E6 /* MedEasyUITests.swift */; };
 		4CC555752B3C6A82000E16E6 /* MedEasyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC555742B3C6A82000E16E6 /* MedEasyUITestsLaunchTests.swift */; };
+		4CC555822B3C6D7D000E16E6 /* EquationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC555812B3C6D7D000E16E6 /* EquationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C2E16D22B402BF700172BDC /* EditDefaultValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDefaultValue.swift; sourceTree = "<group>"; };
 		4CC555532B3C6A81000E16E6 /* MedEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC555562B3C6A81000E16E6 /* MedEasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedEasyApp.swift; sourceTree = "<group>"; };
 		4CC555582B3C6A81000E16E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		4CC5556E2B3C6A82000E16E6 /* MedEasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedEasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC555722B3C6A82000E16E6 /* MedEasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedEasyUITests.swift; sourceTree = "<group>"; };
 		4CC555742B3C6A82000E16E6 /* MedEasyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedEasyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CC555812B3C6D7D000E16E6 /* EquationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				4CC555562B3C6A81000E16E6 /* MedEasyApp.swift */,
 				4CC555582B3C6A81000E16E6 /* ContentView.swift */,
+				4C2E16D22B402BF700172BDC /* EditDefaultValue.swift */,
+				4CC555812B3C6D7D000E16E6 /* EquationView.swift */,
 				4CC5555A2B3C6A82000E16E6 /* Assets.xcassets */,
 				4CC5555C2B3C6A82000E16E6 /* MedEasy.entitlements */,
 				4CC5555D2B3C6A82000E16E6 /* Preview Content */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC555592B3C6A81000E16E6 /* ContentView.swift in Sources */,
+				4C2E16D32B402BF700172BDC /* EditDefaultValue.swift in Sources */,
+				4CC555822B3C6D7D000E16E6 /* EquationView.swift in Sources */,
 				4CC555572B3C6A81000E16E6 /* MedEasyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MedEasy/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S27KD6CYB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -432,7 +441,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -456,6 +465,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MedEasy/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S27KD6CYB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -468,7 +478,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
